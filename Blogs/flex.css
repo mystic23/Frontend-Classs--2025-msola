@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+#container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: end;
+}
+#container div{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem ;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#container .first { 
+    order: 2;
+}
+
+#container .last{
+    order: 1;
+}
