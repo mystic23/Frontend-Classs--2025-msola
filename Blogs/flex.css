@@ -22,6 +22,7 @@ body{
 
 #container .first { 
     order: 2;
+    align-self: auto;
 }
 
 #container .last{
