@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body{
@@ -21,9 +22,11 @@ body{
 }
 
 .card{
+    height: 200px;
+    width: 200px;
     position: relative;
     border-radius: 0.5rem;
-    padding: 2rem;
+    padding: 1rem;
     background-size: cover;
 }
 
@@ -42,6 +45,10 @@ body{
     color: white;
     z-index: 1;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 #metro{
